@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banksia Cake house</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header> 
+
+    <main>
+        <section>
+            <h3>Please fill up the form</h3>
+            <form action="get">
+                <label for="name">Your Name:
+                    <input id="name" type="text" placeholder="Enter Your Name Here">
+                </label>
+                
+                <label for="email">Your Email:
+                    <input type="email" placeholder="Enter Your Email Address Here">
+                </label>
+
+                <label for="phone"> Your Phone Number: 
+                    <input type="text" placeholder="Your phone number">
+                </label>
+                
+                <fieldset>
+                    <legend>Pick One Cake</legend>
+                    <label for="GarlicBread">
+                        <input type="radio" name="Entree" id="GarlicBread"> Garlic Bread
+                    </label>
+                    <label for="CheesePie">
+                        <input type="radio" name="Entree" id="GarlicBread"> Cheese Pie
+                    </label>
+                </fieldset>    
+                <fieldset>
+                    <legend>Pick One or more sauce</legend>
+                    <label for="tomatoSauce">
+                        <input type="checkbox" name="sauce" id="tomatoSauce">Tomato Sauce
+                    </label>
+                    <label for="barbecueSauce">
+                        <input type="checkbox" name="sauce" id="barbecueSauce">Barbecue Sauce 
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <label for="SpecialInstruction">
+                        <input type="textfield" name="SpecialInstruction" id="SpecialInstruction">
+                    </label>
+                </fieldset>
+
+                <input type="reset" value="reset">
+                <input type="submit" value="submit">
+                
+
+
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+
+    </footer>
+</body>
+</html>
